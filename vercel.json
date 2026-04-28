@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm ci --prefix \"My portfoloi\" && npm run build --prefix \"My portfoloi\"",
+  "outputDirectory": "My portfoloi/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
